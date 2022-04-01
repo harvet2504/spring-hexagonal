@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:root@localhost:27017/?authSource=admin
+      database: storesDB
+
+server:
+  port: 9090
